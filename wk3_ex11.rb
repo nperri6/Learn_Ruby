@@ -10,5 +10,5 @@ def odd_or_even(array)
     p "#{num} is an #{odd_or_even[index]} number."
   end
 end
-
-odd_or_even([12, 23, 456, 123, 4579])
+collection =[12, 23, 456, 123, 4579]
+odd_or_even(collection)
